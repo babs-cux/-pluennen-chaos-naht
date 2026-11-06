@@ -192,26 +192,32 @@
       </div>
     </section>
 
-    <section id="pluennen" class="bg-gradient-to-br from-[#e8ecdf] to-[#f6f1e7] px-4 py-16 sm:px-6 sm:py-20" aria-labelledby="pluennen-heading">
-      <div class="mx-auto grid max-w-6xl items-center gap-8 md:grid-cols-[.9fr_1.1fr] md:gap-12">
-  <!-- overflow-hidden wurde hinzugefügt, damit das JPG in der runden Form bleibt -->
-  <div class="relative mx-auto w-full max-w-md -rotate-2 rounded-[45%_42%_16px_18px] border border-[#cdb695] bg-[#faf4e8] p-4 shadow-xl shadow-[#62482c]/15 overflow-hidden">
+<section id="pluennen" class="bg-gradient-to-br from-[#e8ecdf] to-[#f6f1e7] px-4 py-16 sm:px-6 sm:py-20" aria-labelledby="pluennen-heading">
+  <div class="mx-auto grid max-w-6xl items-center gap-8 md:grid-cols-[.9fr_1.1fr] md:gap-12">
     
-    <!-- Hier ist dein neues JPG-Bild -->
-    <img src="korb.jpg" alt="Korb mit Plünnen und bunten Stoffen" class="w-full h-auto object-cover aspect-[4/3] rounded-[42%_39%_12px_14px]">
-    
-    <span class="absolute -bottom-3 right-0 rotate-3 border border-[#ddcbbb] bg-[#fffaf1] px-3 py-2 font-serif text-sm italic shadow-md">Stoffe mit<br>zweitem Leben　♥</span>
-  </div>
-  <div>
-          <p class="mb-2 text-[9px] font-extrabold tracking-[.15em] text-[#8e6c4e]">03　/　UPCYCLING MIT GESCHICHTE</p>
-          <h2 id="pluennen-heading" class="mb-4 text-4xl font-medium leading-tight tracking-tight sm:text-5xl">Das <em class="font-medium text-[#ae634d]">Plünnen-Lager.</em></h2>
-          <p class="mb-4 font-serif text-xl italic leading-relaxed text-[#665343]">Alte Lieblingsstücke? Schöne Fundstoffe? Stoffreste mit großem Auftrittspotenzial? Die dürfen hier alle noch mal glänzen.</p>
-          <p class="mb-5 text-sm leading-6 text-[#716254]">Im Plünnen-Lager warten gerettete Kleidungsstücke, Pre-Loved-Fundstücke und die guten Reste auf ihr nächstes Kapitel. Nichts muss perfekt zusammenpassen – Hauptsache, es hat Charakter und bekommt eine zweite Runde.</p>
-          <div class="mb-5 grid gap-1 border-l-[3px] border-[#bd7a70] bg-[#fffaf1] px-4 py-3"><strong class="text-[8px] tracking-[.14em] text-[#8e6c4e]">ALS NÄCHSTES AM ZUSCHNEIDETISCH</strong><span class="font-serif text-sm italic">Die Plünne, die am lautesten „Mach was aus mir!“ ruft.</span></div>
-          <a class="text-xs font-extrabold text-[#9b5f4f] hover:text-[#ae634d]" href="https://www.instagram.com/pluennen_chaos_naht/" target="_blank" rel="noopener noreferrer">Stofffunde &amp; neue Ideen auf Instagram →</a>
-        </div>
+    <!-- Äußerer Sticker-Rahmen (bleibt unverändert groß) -->
+    <div class="relative mx-auto w-full max-w-md -rotate-2 rounded-[45%_42%_16px_18px] border border-[#cdb695] bg-[#faf4e8] p-6 shadow-xl shadow-[#62482c]/15">
+      
+      <!-- Innerer Container: Nutzt exakt dieselbe unregelmäßige Rundung, ist aber durch overflow-hidden und flexiblen Abstand sauber eingepasst -->
+      <div class="w-full overflow-hidden rounded-[45%_42%_16px_18px] aspect-[4/3]">
+        <img src="korb.jpg" alt="Korb mit Plünnen und bunten Stoffen" class="w-full h-full object-cover">
       </div>
-    </section>
+      
+      <!-- Das Label bleibt unberührt im Vordergrund und ragt über den Rand hinaus -->
+      <span class="absolute -bottom-3 right-0 rotate-3 border border-[#ddcbbb] bg-[#fffaf1] px-3 py-2 font-serif text-sm italic shadow-md">Stoffe mit<br>zweitem Leben　♥</span>
+    </div>
+
+    <div>
+      <p class="mb-2 text-[9px] font-extrabold tracking-[.15em] text-[#8e6c4e]">03　/　UPCYCLING MIT GESCHICHTE</p>
+      <h2 id="pluennen-heading" class="mb-4 text-4xl font-medium leading-tight tracking-tight sm:text-5xl">Das <em class="font-medium text-[#ae634d]">Plünnen-Lager.</em></h2>
+      <p class="mb-4 font-serif text-xl italic leading-relaxed text-[#665343]">Alte Lieblingsstücke? Schöne Fundstoffe? Stoffreste mit großem Auftrittspotenzial? Die dürfen hier alle noch mal glänzen.</p>
+      <p class="mb-5 text-sm leading-6 text-[#716254]">Im Plünnen-Lager warten gerettete Kleidungsstücke, Pre-Loved-Fundstücke und die guten Reste auf ihr nächstes Kapitel. Nichts muss perfekt zusammenpassen – Hauptsache, es hat Charakter und bekommt eine zweite Runde.</p>
+      <div class="mb-5 grid gap-1 border-l-[3px] border-[#bd7a70] bg-[#fffaf1] px-4 py-3"><strong class="text-[8px] tracking-[.14em] text-[#8e6c4e]">ALS NÄCHSTES AM ZUSCHNEIDETISCH</strong><span class="font-serif text-sm italic">Die Plünne, die am lautesten „Mach was aus mir!“ ruft.</span></div>
+      <a class="text-xs font-extrabold text-[#9b5f4f] hover:text-[#ae634d]" href="https://instagram.com" target="_blank" rel="noopener noreferrer">Stofffunde &amp; neue Ideen auf Instagram →</a>
+    </div>
+
+  </div>
+</section>
 
     <section class="bg-[#eadbc5] px-4 py-7">
       <div class="mx-auto flex max-w-6xl flex-col justify-between gap-3 sm:flex-row sm:items-center">
